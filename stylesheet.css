@@ -1,0 +1,107 @@
+/* ーー共通ーー */
+body, #wrapper {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #fffff7;
+}
+/* ーー共通終了ーー */
+
+/* ーーヘッダーーー */
+header {
+    height: 100px;
+    background-color: #74aecc;
+    color: #fff;
+}
+
+.header-logo {
+    font-size:28px;
+    float:left;
+    padding:29px 40px;
+}
+/* ーーヘッダー終了ーー */
+
+main {
+    color: #5e6c77;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.form-box{
+    margin-top: 30px;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+ul {
+    /* background-color: brown; */
+    padding-left: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+li {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+}
+
+/* ーーボタンの装飾ーー */
+.battle-button {
+    display: block;
+    margin-top: 30px;
+    position: relative;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #FFF;
+    background: #ff6768;
+    border: solid 1px #ff3d35;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+.battle-button:active {
+    border: solid 1px #ff6768;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.battle-button:hover {
+    background-color: red;
+}
+
+/* ーーボタンの装飾完ーー */
+
+/* ーーフッターーー */
+footer {
+    color: #fff;
+    background-color: #5e6c77;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    margin-top: auto;
+}
+/* ーーフッター終ーー */
+
+/* ーーresultーー */
+
+.result-area {
+    font-size: 35px;
+}
+
+.try {
+    color: #ff6768;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
